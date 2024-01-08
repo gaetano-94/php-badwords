@@ -7,4 +7,7 @@ $wordToCensor = $_GET["wordToCensor"];
 //stampare il paragrafo e la sua lunghezza
 echo "Paragrafo: $paragraph <br>";
 echo "Lunghezza del paragrafo: " . strlen($paragraph) . " caratteri";
+
+//sostituire la parola censurata con ***
+$censoredParagraph = str_ireplace($wordToCensor, '***', $paragraph);
 ?>
