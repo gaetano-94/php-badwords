@@ -7,15 +7,15 @@
 </head>
 <body>
   <div>
-    <form action="process.php" method="POST">
+    <form action="process.php" method="GET">
        <!-- paragrafo -->
       <label for="paragraph">Inserisci il paragrafo:</label>
-      <textarea name="paragraph" id="paragraph" cols="30" rows="4"></textarea><br>
+      <textarea name="paragraph" id="paragraph" cols="50" rows="5"></textarea><br>
 
       <!-- // parola censurata -->
       <label for="wordToCensor">Inserisci la parola da censurare:</label>
       <input type="text" name="wordToCensor" id="wordToCensor">
-      <button>invia</button>
+      <button>Invia</button>
     </form>
   </div>
 </body>
